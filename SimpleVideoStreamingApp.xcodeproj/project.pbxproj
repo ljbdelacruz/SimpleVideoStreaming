@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477663D895A0E32C8D223285 /* Pods_SimpleVideoStreamingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */; };
+		EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764912196CA2900B0500F /* AppDelegate.swift */; };
+		EEE764942196CA2900B0500F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764932196CA2900B0500F /* ViewController.swift */; };
+		EEE764972196CA2900B0500F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE764952196CA2900B0500F /* Main.storyboard */; };
+		EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE764982196CA2A00B0500F /* Assets.xcassets */; };
+		EEE7649C2196CA2A00B0500F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7649A2196CA2A00B0500F /* LaunchScreen.storyboard */; };
+		EEE764A52196CA4200B0500F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A42196CA4200B0500F /* LoginViewController.swift */; };
+		EEE764A72196D00700B0500F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A62196D00700B0500F /* DashboardViewController.swift */; };
+		EEE764AA2196D10600B0500F /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A92196D10600B0500F /* Users.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4592ACA4733E8C5B058BBCDF /* Pods-SimpleVideoStreamingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoStreamingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp.release.xcconfig"; sourceTree = "<group>"; };
+		8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleVideoStreamingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B800F1DFBE5F740E57E5D93E /* Pods-SimpleVideoStreamingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoStreamingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE7648E2196CA2900B0500F /* SimpleVideoStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVideoStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE764912196CA2900B0500F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE764932196CA2900B0500F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE764962196CA2900B0500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE764982196CA2A00B0500F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE7649B2196CA2A00B0500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE7649D2196CA2A00B0500F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE764A42196CA4200B0500F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEE764A62196D00700B0500F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		EEE764A92196D10600B0500F /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE7648B2196CA2900B0500F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477663D895A0E32C8D223285 /* Pods_SimpleVideoStreamingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2199EA17436DB47A7D45700F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B800F1DFBE5F740E57E5D93E /* Pods-SimpleVideoStreamingApp.debug.xcconfig */,
+				4592ACA4733E8C5B058BBCDF /* Pods-SimpleVideoStreamingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84CDD1D11EBBD669F7ED6667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEE764852196CA2900B0500F = {
+			isa = PBXGroup;
+			children = (
+				EEE764902196CA2900B0500F /* SimpleVideoStreamingApp */,
+				EEE7648F2196CA2900B0500F /* Products */,
+				2199EA17436DB47A7D45700F /* Pods */,
+				84CDD1D11EBBD669F7ED6667 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE7648F2196CA2900B0500F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE7648E2196CA2900B0500F /* SimpleVideoStreamingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE764902196CA2900B0500F /* SimpleVideoStreamingApp */ = {
+			isa = PBXGroup;
+			children = (
+				EEE764A82196D0F300B0500F /* DataModel */,
+				EEE764A32196CA3300B0500F /* ViewController */,
+				EEE764912196CA2900B0500F /* AppDelegate.swift */,
+				EEE764932196CA2900B0500F /* ViewController.swift */,
+				EEE764952196CA2900B0500F /* Main.storyboard */,
+				EEE764982196CA2A00B0500F /* Assets.xcassets */,
+				EEE7649A2196CA2A00B0500F /* LaunchScreen.storyboard */,
+				EEE7649D2196CA2A00B0500F /* Info.plist */,
+			);
+			path = SimpleVideoStreamingApp;
+			sourceTree = "<group>";
+		};
+		EEE764A32196CA3300B0500F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EEE764A42196CA4200B0500F /* LoginViewController.swift */,
+				EEE764A62196D00700B0500F /* DashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EEE764A82196D0F300B0500F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE764A92196D10600B0500F /* Users.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE7648D2196CA2900B0500F /* SimpleVideoStreamingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE764A02196CA2A00B0500F /* Build configuration list for PBXNativeTarget "SimpleVideoStreamingApp" */;
+			buildPhases = (
+				1487B883FCB18DC2A1B66F84 /* [CP] Check Pods Manifest.lock */,
+				EEE7648A2196CA2900B0500F /* Sources */,
+				EEE7648B2196CA2900B0500F /* Frameworks */,
+				EEE7648C2196CA2900B0500F /* Resources */,
+				B67C920E66D2999C4F8E49D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleVideoStreamingApp;
+			productName = SimpleVideoStreamingApp;
+			productReference = EEE7648E2196CA2900B0500F /* SimpleVideoStreamingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE764862196CA2900B0500F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Lainel John Dela Cruz";
+				TargetAttributes = {
+					EEE7648D2196CA2900B0500F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE764892196CA2900B0500F /* Build configuration list for PBXProject "SimpleVideoStreamingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE764852196CA2900B0500F;
+			productRefGroup = EEE7648F2196CA2900B0500F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE7648D2196CA2900B0500F /* SimpleVideoStreamingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE7648C2196CA2900B0500F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE7649C2196CA2A00B0500F /* LaunchScreen.storyboard in Resources */,
+				EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */,
+				EEE764972196CA2900B0500F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1487B883FCB18DC2A1B66F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleVideoStreamingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B67C920E66D2999C4F8E49D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE7648A2196CA2900B0500F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE764A52196CA4200B0500F /* LoginViewController.swift in Sources */,
+				EEE764942196CA2900B0500F /* ViewController.swift in Sources */,
+				EEE764AA2196D10600B0500F /* Users.swift in Sources */,
+				EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */,
+				EEE764A72196D00700B0500F /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEE764952196CA2900B0500F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE764962196CA2900B0500F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE7649A2196CA2A00B0500F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE7649B2196CA2A00B0500F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE7649E2196CA2A00B0500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEE7649F2196CA2A00B0500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE764A12196CA2A00B0500F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B800F1DFBE5F740E57E5D93E /* Pods-SimpleVideoStreamingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				INFOPLIST_FILE = SimpleVideoStreamingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.SimpleVideoStreamingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE764A22196CA2A00B0500F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4592ACA4733E8C5B058BBCDF /* Pods-SimpleVideoStreamingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				INFOPLIST_FILE = SimpleVideoStreamingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ljbdelacruz.SimpleVideoStreamingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE764892196CA2900B0500F /* Build configuration list for PBXProject "SimpleVideoStreamingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE7649E2196CA2A00B0500F /* Debug */,
+				EEE7649F2196CA2A00B0500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE764A02196CA2A00B0500F /* Build configuration list for PBXNativeTarget "SimpleVideoStreamingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE764A12196CA2A00B0500F /* Debug */,
+				EEE764A22196CA2A00B0500F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE764862196CA2900B0500F /* Project object */;
+}
