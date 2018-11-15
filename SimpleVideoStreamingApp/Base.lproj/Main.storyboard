@@ -110,7 +110,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xw3-NK-5NA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xw3-NK-5NA" customClass="ImageTitleTableViewCell" customModule="SimpleVideoStreamingApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xw3-NK-5NA" id="KhK-Hm-a0s">
@@ -137,6 +137,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="UIAnimeListTV" destination="UZ8-VG-zJj" id="sJk-wm-RwA"/>
+                        <outlet property="UIAnimeSB" destination="cTP-nv-MDG" id="IEB-kw-quY"/>
                         <segue destination="u9p-wf-flw" kind="show" identifier="animeToviewInfo" id="dnR-xs-NWZ"/>
                         <segue destination="xgX-vh-J9t" kind="show" identifier="dashboardToQRScanner" id="wCk-5K-ne6"/>
                     </connections>
@@ -185,6 +187,7 @@
                         <outlet property="UIProfileImage" destination="h9t-om-ZU8" id="7sP-HR-lFg"/>
                         <outlet property="UIScrollView" destination="ZcM-aT-mQs" id="YSg-6w-oRU"/>
                         <outlet property="WKDisplayVideo" destination="WLt-zR-J6a" id="s8u-gP-s9f"/>
+                        <segue destination="5og-03-54Y" kind="show" identifier="viewInfoToVideoPlayer" id="BgP-rF-N41"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox0-Np-8gt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -289,7 +292,7 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9B7-IQ-ff6">
                                 <rect key="frame" x="0.0" y="64" width="375" height="492"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -308,7 +311,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oib-CM-MVy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2080.8000000000002" y="1065.5172413793105"/>
+            <point key="canvasLocation" x="1873" y="886"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6R3-nb-7yd"/>
+    </inferredMetricsTieBreakers>
 </document>

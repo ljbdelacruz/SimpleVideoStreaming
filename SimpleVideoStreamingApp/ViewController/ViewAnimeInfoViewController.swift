@@ -28,4 +28,5 @@ class ViewAnimeInfoViewController: UIViewController {
     }
     
     
+    
 }

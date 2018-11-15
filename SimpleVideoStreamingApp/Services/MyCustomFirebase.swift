@@ -35,7 +35,7 @@ class FirebaseCustom{
             }
         })
     }
-    func Logout(completionHandler: @escaping (Bool) -> ()){
+    static func Logout(completionHandler: @escaping (Bool) -> ()){
         do{
             try Auth.auth().signOut()
             completionHandler(true)
@@ -43,8 +43,7 @@ class FirebaseCustom{
             completionHandler(false);
         }
     }
-    func InsertData(data:Any?, db:DatabaseReference, completionHandler: @escaping (Any?, Error?) -> ()){
-        //        let messageDB=Database.database().reference().child(name);
+    static func InsertData(data:Any?, db:DatabaseReference, completionHandler: @escaping (Any?, Error?) -> ()){
         db.childByAutoId().setValue(data!){
             (error, ref) in
             if error == nil{
@@ -54,13 +53,16 @@ class FirebaseCustom{
             }
         }
     }
-    
-    func RetrieveDataValue(db:DatabaseReference, completionHandler: @escaping (DataSnapshot?) -> ()){
-        //        let messageDB=Database.database().reference().child(name);
+    static func RetrieveDataValue(db:DatabaseReference, completionHandler: @escaping (DataSnapshot?) -> ()){
         db.observe(.childAdded, with: {
             (response) in
             completionHandler(response);
         })
+    }
+    static func CreateID(db:DatabaseReference)->String{
+        let id=db.childByAutoId().description()
+        print(id);
+        return id;
     }
 }
 

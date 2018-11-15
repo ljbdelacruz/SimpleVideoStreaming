@@ -9,6 +9,8 @@ target 'SimpleVideoStreamingApp' do
 pod 'Firebase'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+
+
 pod 'SwiftyJSON'
 pod 'Alamofire'
 pod 'SVProgressHUD'

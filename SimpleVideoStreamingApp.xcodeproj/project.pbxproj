@@ -18,6 +18,8 @@
 		EEDAC7C0219A201B00FCAB13 /* GeneralFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7BF219A201B00FCAB13 /* GeneralFuncViewController.swift */; };
 		EEDAC7C2219A2C7C00FCAB13 /* QRScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C1219A2C7C00FCAB13 /* QRScanningViewController.swift */; };
 		EEDAC7C4219A372100FCAB13 /* URLVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C3219A372100FCAB13 /* URLVideoViewController.swift */; };
+		EEDAC7C8219CF16A00FCAB13 /* ImageTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */; };
+		EEDAC7CA219CF17B00FCAB13 /* ImageTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */; };
 		EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764912196CA2900B0500F /* AppDelegate.swift */; };
 		EEE764972196CA2900B0500F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE764952196CA2900B0500F /* Main.storyboard */; };
 		EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE764982196CA2A00B0500F /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		EEDAC7BF219A201B00FCAB13 /* GeneralFuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFuncViewController.swift; sourceTree = "<group>"; };
 		EEDAC7C1219A2C7C00FCAB13 /* QRScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanningViewController.swift; sourceTree = "<group>"; };
 		EEDAC7C3219A372100FCAB13 /* URLVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLVideoViewController.swift; sourceTree = "<group>"; };
+		EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleTableViewCell.swift; sourceTree = "<group>"; };
+		EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTitleTableViewCell.xib; sourceTree = "<group>"; };
 		EEE7648E2196CA2900B0500F /* SimpleVideoStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVideoStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE764912196CA2900B0500F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEE764962196CA2900B0500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +114,23 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		EEDAC7C5219CF13000FCAB13 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7C6219CF13A00FCAB13 /* TableViewCell */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EEDAC7C6219CF13A00FCAB13 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */,
+				EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		EEE764852196CA2900B0500F = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +152,7 @@
 		EEE764902196CA2900B0500F /* SimpleVideoStreamingApp */ = {
 			isa = PBXGroup;
 			children = (
+				EEDAC7C5219CF13000FCAB13 /* Custom */,
 				EEDAC7BC219A1D5E00FCAB13 /* Protocol */,
 				EEE764B12196D65400B0500F /* Services */,
 				EEE764A82196D0F300B0500F /* DataModel */,
@@ -244,6 +266,7 @@
 			files = (
 				EEE7649C2196CA2A00B0500F /* LaunchScreen.storyboard in Resources */,
 				EEDAC7362199B9C700FCAB13 /* GoogleService-Info.plist in Resources */,
+				EEDAC7CA219CF17B00FCAB13 /* ImageTitleTableViewCell.xib in Resources */,
 				EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */,
 				EEE764972196CA2900B0500F /* Main.storyboard in Resources */,
 			);
@@ -333,6 +356,7 @@
 				EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */,
 				EEE764A72196D00700B0500F /* DashboardViewController.swift in Sources */,
 				EEDAC7B62199D16100FCAB13 /* AdjustingTF.swift in Sources */,
+				EEDAC7C8219CF16A00FCAB13 /* ImageTitleTableViewCell.swift in Sources */,
 				EEDAC7C4219A372100FCAB13 /* URLVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

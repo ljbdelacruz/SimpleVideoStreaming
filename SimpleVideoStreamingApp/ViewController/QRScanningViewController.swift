@@ -11,9 +11,6 @@ import AVFoundation
 
 
 class QRScanningViewController: GeneralFuncViewController {
-
-    
-    
     @IBOutlet weak var UIDisplayScanner: UIView!
     
     var captureSession = AVCaptureSession()
@@ -65,7 +62,7 @@ class QRScanningViewController: GeneralFuncViewController {
         videoPreviewLayer?.frame = view.layer.bounds
 //        view.layer.addSublayer(videoPreviewLayer!)
         UIDisplayScanner.layer.addSublayer(videoPreviewLayer!);
-        view.addSubview(UIDisplayScanner);
+//        view.addSubview(UIDisplayScanner);
         // Start video capture.
         captureSession.startRunning()
     }
@@ -83,10 +80,10 @@ class QRScanningViewController: GeneralFuncViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "scannerToVideoPlayer"{
             let destVC=segue.destination as! URLVideoViewController;
+            destVC.viewResponseDelegate=self;
             destVC.url=self.url;
         }
     }
-
 }
 //QR Scanning Func
 extension QRScanningViewController: AVCaptureMetadataOutputObjectsDelegate {
@@ -107,4 +104,11 @@ extension QRScanningViewController: AVCaptureMetadataOutputObjectsDelegate {
             self.CheckURL(url: metadataObj.stringValue!);
         }
     }
+}
+
+extension QRScanningViewController:CloseViewResponseDelegate{
+    func ExecuteWhenClose() {
+        self.isSuccessScan=false;
+    }
+    
 }
