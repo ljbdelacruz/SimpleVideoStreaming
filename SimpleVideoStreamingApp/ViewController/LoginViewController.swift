@@ -38,7 +38,7 @@ class LoginViewController: GeneralFuncViewController {
         self.ExecuteAuthentication();
     }
 }
-//MARK Firebase Func
+//MARK: Firebase Func
 extension LoginViewController{
     func ExecuteAuthentication(){
         self.view.isUserInteractionEnabled=false;
@@ -46,7 +46,7 @@ extension LoginViewController{
             (isSuccess) in
             if isSuccess! {
                 SVProgressHUD.show();
-                self.Autheticate(completionHandler: {
+                self.Autheticate(completionHandler:{
                     (isLogin) in
                     SVProgressHUD.dismiss();
                     if isLogin! {
@@ -77,10 +77,9 @@ extension LoginViewController{
             }else{
                 self.ShowAlertMessage(title: "Warning", message: "Please Enter Email and Password");
             }
-        
     }
 }
-//MARK TextField func
+//MARK: TextField func
 extension LoginViewController:UITextFieldDelegate{
     func textFieldDidBeginEditing(_ textField: UITextField) {
         (textField as! AdjustingTF).Move(view: self.view, duration: 0.5, moveDistance: 100, up: false);
@@ -98,7 +97,7 @@ extension LoginViewController:UITextFieldDelegate{
     }
 }
 
-//extension CompleteSignupDelegate
+//MARK: CompleteSignupDelegate
 extension LoginViewController:CompleteProcess{
     func completeSignup(user: Users) {
         self.userInfo?.set(email: user.email, password: user.password);

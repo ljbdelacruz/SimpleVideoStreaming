@@ -40,7 +40,7 @@ extension GeneralFuncViewController{
         let localAuthenticationContext = LAContext()
         localAuthenticationContext.localizedFallbackTitle = "Use Passcode"
         var authError: NSError?
-        let reasonString = "To access the secure data"
+        let reasonString = "To login using this device"
         if localAuthenticationContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError) {
             localAuthenticationContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reasonString) { success, evaluateError in
                 if success {
