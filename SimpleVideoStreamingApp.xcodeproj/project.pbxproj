@@ -7,24 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		477663D895A0E32C8D223285 /* Pods_SimpleVideoStreamingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */; };
+		33107796F6CFBF76CB41ACAF /* Pods_SimpleVideoStreamingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */; };
+		EEDAC7342199836100FCAB13 /* MyCustomFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7332199836100FCAB13 /* MyCustomFirebase.swift */; };
+		EEDAC7362199B9C700FCAB13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEDAC7352199B9C700FCAB13 /* GoogleService-Info.plist */; };
+		EEDAC7B42199CF9600FCAB13 /* MyCustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7B32199CF9600FCAB13 /* MyCustomAlert.swift */; };
+		EEDAC7B62199D16100FCAB13 /* AdjustingTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7B52199D16100FCAB13 /* AdjustingTF.swift */; };
+		EEDAC7B82199D23B00FCAB13 /* TFAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7B72199D23B00FCAB13 /* TFAccessory.swift */; };
+		EEDAC7BB219A1C0600FCAB13 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7BA219A1C0600FCAB13 /* SignupViewController.swift */; };
+		EEDAC7BE219A1D8A00FCAB13 /* CompleteSignupDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7BD219A1D8A00FCAB13 /* CompleteSignupDelegate.swift */; };
+		EEDAC7C0219A201B00FCAB13 /* GeneralFuncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7BF219A201B00FCAB13 /* GeneralFuncViewController.swift */; };
+		EEDAC7C2219A2C7C00FCAB13 /* QRScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C1219A2C7C00FCAB13 /* QRScanningViewController.swift */; };
+		EEDAC7C4219A372100FCAB13 /* URLVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C3219A372100FCAB13 /* URLVideoViewController.swift */; };
+		EEDAC7C8219CF16A00FCAB13 /* ImageTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */; };
+		EEDAC7CA219CF17B00FCAB13 /* ImageTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */; };
 		EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764912196CA2900B0500F /* AppDelegate.swift */; };
-		EEE764942196CA2900B0500F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764932196CA2900B0500F /* ViewController.swift */; };
 		EEE764972196CA2900B0500F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE764952196CA2900B0500F /* Main.storyboard */; };
 		EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE764982196CA2A00B0500F /* Assets.xcassets */; };
 		EEE7649C2196CA2A00B0500F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7649A2196CA2A00B0500F /* LaunchScreen.storyboard */; };
 		EEE764A52196CA4200B0500F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A42196CA4200B0500F /* LoginViewController.swift */; };
 		EEE764A72196D00700B0500F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A62196D00700B0500F /* DashboardViewController.swift */; };
 		EEE764AA2196D10600B0500F /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764A92196D10600B0500F /* Users.swift */; };
+		EEE764AC2196D39900B0500F /* ViewAnimeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764AB2196D39900B0500F /* ViewAnimeInfoViewController.swift */; };
+		EEE764AE2196D54000B0500F /* AnimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764AD2196D54000B0500F /* AnimeInfo.swift */; };
+		EEE764B02196D5DA00B0500F /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764AF2196D5DA00B0500F /* Episodes.swift */; };
+		EEE764B32196D66C00B0500F /* URLGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE764B22196D66C00B0500F /* URLGetter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEDAC78D2199C8FA00FCAB13 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4592ACA4733E8C5B058BBCDF /* Pods-SimpleVideoStreamingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoStreamingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp.release.xcconfig"; sourceTree = "<group>"; };
 		8EECF8DFF8651118036DE43B /* Pods_SimpleVideoStreamingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleVideoStreamingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B800F1DFBE5F740E57E5D93E /* Pods-SimpleVideoStreamingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleVideoStreamingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleVideoStreamingApp/Pods-SimpleVideoStreamingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDAC7332199836100FCAB13 /* MyCustomFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomFirebase.swift; sourceTree = "<group>"; };
+		EEDAC7352199B9C700FCAB13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEDAC7B32199CF9600FCAB13 /* MyCustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomAlert.swift; sourceTree = "<group>"; };
+		EEDAC7B52199D16100FCAB13 /* AdjustingTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustingTF.swift; sourceTree = "<group>"; };
+		EEDAC7B72199D23B00FCAB13 /* TFAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFAccessory.swift; sourceTree = "<group>"; };
+		EEDAC7BA219A1C0600FCAB13 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		EEDAC7BD219A1D8A00FCAB13 /* CompleteSignupDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignupDelegate.swift; sourceTree = "<group>"; };
+		EEDAC7BF219A201B00FCAB13 /* GeneralFuncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFuncViewController.swift; sourceTree = "<group>"; };
+		EEDAC7C1219A2C7C00FCAB13 /* QRScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanningViewController.swift; sourceTree = "<group>"; };
+		EEDAC7C3219A372100FCAB13 /* URLVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLVideoViewController.swift; sourceTree = "<group>"; };
+		EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleTableViewCell.swift; sourceTree = "<group>"; };
+		EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTitleTableViewCell.xib; sourceTree = "<group>"; };
 		EEE7648E2196CA2900B0500F /* SimpleVideoStreamingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleVideoStreamingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE764912196CA2900B0500F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEE764932196CA2900B0500F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EEE764962196CA2900B0500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE764982196CA2A00B0500F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE7649B2196CA2A00B0500F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +71,10 @@
 		EEE764A42196CA4200B0500F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EEE764A62196D00700B0500F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		EEE764A92196D10600B0500F /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EEE764AB2196D39900B0500F /* ViewAnimeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimeInfoViewController.swift; sourceTree = "<group>"; };
+		EEE764AD2196D54000B0500F /* AnimeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeInfo.swift; sourceTree = "<group>"; };
+		EEE764AF2196D5DA00B0500F /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
+		EEE764B22196D66C00B0500F /* URLGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477663D895A0E32C8D223285 /* Pods_SimpleVideoStreamingApp.framework in Frameworks */,
+				33107796F6CFBF76CB41ACAF /* Pods_SimpleVideoStreamingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EEDAC7BC219A1D5E00FCAB13 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7BD219A1D8A00FCAB13 /* CompleteSignupDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EEDAC7C5219CF13000FCAB13 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7C6219CF13A00FCAB13 /* TableViewCell */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		EEDAC7C6219CF13A00FCAB13 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7C7219CF16A00FCAB13 /* ImageTitleTableViewCell.swift */,
+				EEDAC7C9219CF17B00FCAB13 /* ImageTitleTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		EEE764852196CA2900B0500F = {
 			isa = PBXGroup;
 			children = (
@@ -84,14 +152,17 @@
 		EEE764902196CA2900B0500F /* SimpleVideoStreamingApp */ = {
 			isa = PBXGroup;
 			children = (
+				EEDAC7C5219CF13000FCAB13 /* Custom */,
+				EEDAC7BC219A1D5E00FCAB13 /* Protocol */,
+				EEE764B12196D65400B0500F /* Services */,
 				EEE764A82196D0F300B0500F /* DataModel */,
 				EEE764A32196CA3300B0500F /* ViewController */,
 				EEE764912196CA2900B0500F /* AppDelegate.swift */,
-				EEE764932196CA2900B0500F /* ViewController.swift */,
 				EEE764952196CA2900B0500F /* Main.storyboard */,
 				EEE764982196CA2A00B0500F /* Assets.xcassets */,
 				EEE7649A2196CA2A00B0500F /* LaunchScreen.storyboard */,
 				EEE7649D2196CA2A00B0500F /* Info.plist */,
+				EEDAC7352199B9C700FCAB13 /* GoogleService-Info.plist */,
 			);
 			path = SimpleVideoStreamingApp;
 			sourceTree = "<group>";
@@ -101,6 +172,11 @@
 			children = (
 				EEE764A42196CA4200B0500F /* LoginViewController.swift */,
 				EEE764A62196D00700B0500F /* DashboardViewController.swift */,
+				EEE764AB2196D39900B0500F /* ViewAnimeInfoViewController.swift */,
+				EEDAC7BA219A1C0600FCAB13 /* SignupViewController.swift */,
+				EEDAC7BF219A201B00FCAB13 /* GeneralFuncViewController.swift */,
+				EEDAC7C1219A2C7C00FCAB13 /* QRScanningViewController.swift */,
+				EEDAC7C3219A372100FCAB13 /* URLVideoViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -109,8 +185,22 @@
 			isa = PBXGroup;
 			children = (
 				EEE764A92196D10600B0500F /* Users.swift */,
+				EEE764AD2196D54000B0500F /* AnimeInfo.swift */,
+				EEE764AF2196D5DA00B0500F /* Episodes.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		EEE764B12196D65400B0500F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EEDAC7B32199CF9600FCAB13 /* MyCustomAlert.swift */,
+				EEE764B22196D66C00B0500F /* URLGetter.swift */,
+				EEDAC7332199836100FCAB13 /* MyCustomFirebase.swift */,
+				EEDAC7B52199D16100FCAB13 /* AdjustingTF.swift */,
+				EEDAC7B72199D23B00FCAB13 /* TFAccessory.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +215,7 @@
 				EEE7648B2196CA2900B0500F /* Frameworks */,
 				EEE7648C2196CA2900B0500F /* Resources */,
 				B67C920E66D2999C4F8E49D8 /* [CP] Embed Pods Frameworks */,
+				EEDAC78D2199C8FA00FCAB13 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE7649C2196CA2A00B0500F /* LaunchScreen.storyboard in Resources */,
+				EEDAC7362199B9C700FCAB13 /* GoogleService-Info.plist in Resources */,
+				EEDAC7CA219CF17B00FCAB13 /* ImageTitleTableViewCell.xib in Resources */,
 				EEE764992196CA2A00B0500F /* Assets.xcassets in Resources */,
 				EEE764972196CA2900B0500F /* Main.storyboard in Resources */,
 			);
@@ -247,11 +340,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE764AE2196D54000B0500F /* AnimeInfo.swift in Sources */,
 				EEE764A52196CA4200B0500F /* LoginViewController.swift in Sources */,
-				EEE764942196CA2900B0500F /* ViewController.swift in Sources */,
+				EEDAC7C0219A201B00FCAB13 /* GeneralFuncViewController.swift in Sources */,
+				EEDAC7B82199D23B00FCAB13 /* TFAccessory.swift in Sources */,
+				EEDAC7BE219A1D8A00FCAB13 /* CompleteSignupDelegate.swift in Sources */,
+				EEE764AC2196D39900B0500F /* ViewAnimeInfoViewController.swift in Sources */,
+				EEDAC7B42199CF9600FCAB13 /* MyCustomAlert.swift in Sources */,
 				EEE764AA2196D10600B0500F /* Users.swift in Sources */,
+				EEE764B02196D5DA00B0500F /* Episodes.swift in Sources */,
+				EEE764B32196D66C00B0500F /* URLGetter.swift in Sources */,
+				EEDAC7342199836100FCAB13 /* MyCustomFirebase.swift in Sources */,
+				EEDAC7BB219A1C0600FCAB13 /* SignupViewController.swift in Sources */,
+				EEDAC7C2219A2C7C00FCAB13 /* QRScanningViewController.swift in Sources */,
 				EEE764922196CA2900B0500F /* AppDelegate.swift in Sources */,
 				EEE764A72196D00700B0500F /* DashboardViewController.swift in Sources */,
+				EEDAC7B62199D16100FCAB13 /* AdjustingTF.swift in Sources */,
+				EEDAC7C8219CF16A00FCAB13 /* ImageTitleTableViewCell.swift in Sources */,
+				EEDAC7C4219A372100FCAB13 /* URLVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +506,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SimpleVideoStreamingApp/MyFramework",
+				);
 				INFOPLIST_FILE = SimpleVideoStreamingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -419,7 +531,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93CXP6R5M8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SimpleVideoStreamingApp/MyFramework",
+				);
 				INFOPLIST_FILE = SimpleVideoStreamingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

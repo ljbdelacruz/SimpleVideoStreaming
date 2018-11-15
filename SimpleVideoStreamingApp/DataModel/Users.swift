@@ -15,10 +15,18 @@ class Users{
         self.email="";
         self.password="";
     }
+    convenience init(email:String, password:String){
+        self.init();
+        self.set(email: email, password: password);
+    }
     func set(email:String, password:String){
         self.email=email;
         self.password=password;
     }
+    static func CreateNewUser(email:String, password:String, completionHandler: @escaping (Any?, Error?) -> ()){
+        
+    }
+    
     
     
     
