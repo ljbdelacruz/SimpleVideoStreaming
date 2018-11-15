@@ -46,6 +46,25 @@ QR Scanning for viewing url sites
     <img width="280" height="300" alt="5" src="https://raw.githubusercontent.com/ljbdelacruz/SimpleVideoStreaming/master/QRCodes/12.PNG">
   </td>
 </tr>
+<tr>
+  <td>
+   <img width="280" height="300" alt="5" src="https://raw.githubusercontent.com/ljbdelacruz/SimpleVideoStreaming/master/QRCodes/13.PNG">
+  </td>
+  <td>
+    <img width="280" height="300" alt="5" src="https://raw.githubusercontent.com/ljbdelacruz/SimpleVideoStreaming/master/QRCodes/14.PNG">
+  </td>
+  <td>
+    <img width="280" height="300" alt="5" src="https://raw.githubusercontent.com/ljbdelacruz/SimpleVideoStreaming/master/QRCodes/15.PNG">
+  </td>
+</tr>  
+ 
+<tr>
+  <td>Scan this QR Code it will redirect you to boruto episode 1 URL link(Test video only if you want you can test it with your own qr generated code)</td>
+  <td>
+    <img width="280" height="300" alt="5" src="https://raw.githubusercontent.com/ljbdelacruz/SimpleVideoStreaming/master/QRCodes/borutoCode.png">
+  </td>
+</tr>
+  
 </table>
 
 
