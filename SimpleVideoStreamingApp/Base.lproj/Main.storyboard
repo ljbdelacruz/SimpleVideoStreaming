@@ -167,15 +167,21 @@
                                         <rect key="frame" x="67" y="79" width="240" height="160"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <wkWebView contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WLt-zR-J6a">
-                                        <rect key="frame" x="8" y="237" width="359" height="271"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <wkWebViewConfiguration key="configuration">
-                                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                            <wkPreferences key="preferences"/>
-                                        </wkWebViewConfiguration>
-                                    </wkWebView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8ab-ft-aRN">
+                                        <rect key="frame" x="0.0" y="237" width="375" height="366"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <prototypes>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell1" id="iXw-R6-G9K">
+                                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iXw-R6-G9K" id="MkN-YD-exo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </tableViewCellContentView>
+                                            </tableViewCell>
+                                        </prototypes>
+                                    </tableView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -184,15 +190,15 @@
                     </view>
                     <connections>
                         <outlet property="UIBackgroundImage" destination="cYK-iB-p0p" id="HTd-bA-gPJ"/>
+                        <outlet property="UIEpisodeTV" destination="8ab-ft-aRN" id="yq1-Ji-f8q"/>
                         <outlet property="UIProfileImage" destination="h9t-om-ZU8" id="7sP-HR-lFg"/>
                         <outlet property="UIScrollView" destination="ZcM-aT-mQs" id="YSg-6w-oRU"/>
-                        <outlet property="WKDisplayVideo" destination="WLt-zR-J6a" id="s8u-gP-s9f"/>
                         <segue destination="5og-03-54Y" kind="show" identifier="viewInfoToVideoPlayer" id="BgP-rF-N41"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox0-Np-8gt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1874" y="133"/>
+            <point key="canvasLocation" x="1872.8" y="132.68365817091455"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="0YR-i2-vwM">
@@ -315,6 +321,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6R3-nb-7yd"/>
+        <segue reference="BgP-rF-N41"/>
     </inferredMetricsTieBreakers>
 </document>

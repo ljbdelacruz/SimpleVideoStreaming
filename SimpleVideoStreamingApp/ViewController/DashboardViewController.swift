@@ -74,6 +74,11 @@ extension DashboardViewController:UITableViewDelegate, UITableViewDataSource{
         }
         return cell;
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true);
+        self.selectedAnime=self.animeList![indexPath.row];
+        performSegue(withIdentifier: "animeToviewInfo", sender: nil);
+    }
 }
 //MARK: UISearchBar Func
 extension DashboardViewController:UISearchBarDelegate{
@@ -86,3 +91,4 @@ extension DashboardViewController:UISearchBarDelegate{
         self.LoadAll()
     }
 }
+

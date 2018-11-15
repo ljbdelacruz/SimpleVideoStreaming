@@ -25,7 +25,9 @@ class URLVideoViewController: UIViewController, WKUIDelegate {
         self.UIVideoDisplay.addSubview(UIWKVideo);
     }
     @IBAction func BackOnClick(_ sender: Any) {
-        self.viewResponseDelegate?.ExecuteWhenClose()
+        if self.viewResponseDelegate != nil{
+            self.viewResponseDelegate?.ExecuteWhenClose()
+        }
         self.navigationController?.popViewController(animated: true);
     }
     
