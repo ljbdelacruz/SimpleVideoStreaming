@@ -68,8 +68,7 @@ extension DashboardViewController:UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageTitleCell", for: indexPath) as! ImageTitleTableViewCell
         cell.UICellLabel.text=self.animeList![indexPath.row].name;
-        print(self.animeList![indexPath.row].name)
-        DispatchQueue.global(qos:.background).async {
+        DispatchQueue.main.async {
             cell.UICellImage.image=URLGetter.fetchImage(url: self.animeList![indexPath.row].profileImg);
         }
         return cell;
